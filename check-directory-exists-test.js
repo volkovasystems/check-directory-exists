@@ -84,6 +84,14 @@ describe( "checkDirectoryExists",
 						}
 					} );
 			} );
+
+		it( "should return false for file 'hello' when hello file was not created",
+			function testCase( done ){
+				removeFile( "hello", function onDone( ){
+					assert.strictEqual( checkDirectoryExists( "hello" ), false );	
+					done( );
+				} );
+			} );
 	} );
 
 var checkDirectoryExists = require( "./check-directory-exists.js" );
