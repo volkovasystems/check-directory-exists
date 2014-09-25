@@ -1,13 +1,13 @@
 /*:
 	@test-configuration:
 		{
-			"packageName": "dasherize-namespace",
-			"fileName": "dasherize-namespace-test.js",
+			"packageName": "check-directory-exists",
+			"fileName": "check-directory-exists-test.js",
 			"authorName": "Richeve S. Bebedor",
 			"authorEMail": "richeve.bebedor@gmail.com",
-			"repository": "git@github.com:volkovasystems/dasherize-namespace.git",
-			"referenceFile": "dasherize-namespace.js",
-			"referenceModule": "dasherizeNamespace"
+			"repository": "git@github.com:volkovasystems/check-directory-exists.git",
+			"referenceFile": "check-directory-exists.js",
+			"referenceModule": "checkDirectoryExists"
 		}
 	@end-test-configuration
 
